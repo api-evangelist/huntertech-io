@@ -1,4 +1,4 @@
-# huntertech-io
+# Huntertech
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,127 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-huntertech-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://huntertech.io/
+Huntertech provides unified vendor intelligence for IT teams, aggregating incidents, maintenance, advisories, and updates from major infrastructure providers into a single coherent view. The platform offers real‑time incident timelines, vendor comparisons, and contextual insights to help teams respond quickly. It supports a broad range of vendors including Cisco, Cloudflare, Microsoft Azure, Amazon AWS, Google Cloud, IBM, Snowflake, Oracle, Salesforce, Zscaler, and more. Users can start for free, explore vendor data instantly, and upgrade for deeper historical coverage and advanced features.
+
+**Areas:** Company · VendorIntelligence · IT · IncidentManagement · Cloud
+
+## Huntertech on APIs.io
+
+Everything profiled for Huntertech is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/huntertech-io/](https://apis.io/providers/huntertech-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Huntertech API](https://apis.io/apis/huntertech-io/huntertech-io-api/) — Huntertech API as documented publicly: 21 operations. Contract generated from the documentation by API Evangelist (2026-11-11); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetAdvisoriesUnifiedResponse](https://apis.io/schemas/huntertech-io/huntertech-io-get-advisories-unified-response/)
+- [GetApiV1InfrastructureCisaKnownExploitedVulnerabilitiesRespo](https://apis.io/schemas/huntertech-io/huntertech-io-get-api-v1-infrastructure-cisa-known-exploited-vulnerabilities-respo/)
+- [GetApiV1InfrastructureVendorsZscalerComplianceResponse](https://apis.io/schemas/huntertech-io/huntertech-io-get-api-v1-infrastructure-vendors-zscaler-compliance-response/)
+- [GetNvdCvesResponse](https://apis.io/schemas/huntertech-io/huntertech-io-get-nvd-cves-response/)
+- [GetPressReleasesResponse](https://apis.io/schemas/huntertech-io/huntertech-io-get-press-releases-response/)
+- [GetVendorStatusVendorResponse](https://apis.io/schemas/huntertech-io/huntertech-io-get-vendor-status-vendor-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Huntertech Io Context](https://apis.io/jsonld/huntertech-io/huntertech-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Huntertech API Rules](https://apis.io/rules/huntertech-io/huntertech-io-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Huntertech Domain Security](https://apis.io/security/huntertech-io/huntertech-io-domain-security/)
+- [Huntertech Vulnerability Disclosure](https://apis.io/security/huntertech-io/huntertech-io-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Huntertech Plans Pricing](https://apis.io/plans/huntertech-io/huntertech-io-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.huntertech.io/)
+- [Documentation](https://www.huntertech.io/docs)
+- [Getting started](https://www.huntertech.io/docs/api?theme=dark)
+- [API reference](https://www.huntertech.io/api)
+- [Pricing](https://www.huntertech.io/pricing)
+- [Sign up](https://www.huntertech.io/signup)
+- [Support](https://www.huntertech.io/account/support?new=feature-request)
+- [Changelog](https://www.huntertech.io/probe/release-notes)
+- [Security](https://www.huntertech.io/tools/security)
+- [Terms of service](https://www.huntertech.io/legal/terms)
+- [Privacy policy](https://www.huntertech.io/legal/privacy)
+- [Status](https://www.huntertech.io/status)
+
+## API Evangelist rating
+
+**Kin Score 59.7** — strong · rubric 0.27.0 · scored 2026-11-12
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.3 |
+| Contract quality | 53.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 42.1 |
+| Developer ergonomics | 42.9 |
+| Access clarity | 73.2 |
+
+**Agent readiness 39.0** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | mostly (partial credit) |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/huntertech-io/](https://apis.io/providers/huntertech-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Huntertech: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/huntertech-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
